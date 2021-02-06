@@ -69,70 +69,77 @@ div {
   content: "";
 }
 .sun {
-  position: absolute;
-  top: -80px;
-  left: -150px;
-}
-.sun-8 {
-  background: yellow;
-  width: 80px;
-  height: 80px;
   position: relative;
-  text-align: center;
-  transform: rotate(20deg) scale(0.3);
+  top: -50px;
+  left: -180px;
+  transform: scale(.1);
 }
-.sun-8:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 80px;
-  width: 80px;
+.sun .circle {
   background: yellow;
-  transform: rotate(135deg);
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 160px;
+  left: -30px;
+  border-radius: 50%;
 }
-.ray {
+
+.sun .rays {
   position: relative;
   /* transform: scale(.1) */
 }
 
-.ray-1 {
-  position: relative;
+.rays .ray-1 {
+  position: absolute;
 }
 
-.ray-2 {
-  position: relative;
+.rays .ray-2 {
+  position: absolute;
   transform: rotate(45deg);
+  top: 0px;
+  left: 0px;
 }
 
-.ray-3 {
-  position: relative;
+.rays .ray-3 {
+  position: absolute;
   transform: rotate(90deg);
+  top: 0px;
+  left: 0px;
 }
 
-.ray-4 {
-  position: relative;
+.rays .ray-4 {
+  position: absolute;
   transform: rotate(135deg);
+  top: 0px;
+  left: 0px;
 }
 
-.ray-5 {
-  position: relative;
+.rays .ray-5 {
+  position: absolute;
   transform: rotate(180deg);
+  top: 0px;
+  left: 0px;
 }
 
-.ray-6 {
-  position: relative;
+.rays .ray-6 {
+  position: absolute;
   transform: rotate(225deg);
+  top: 0px;
+  left: 0px;
 }
 
-.ray-7 {
-  position: relative;
+.rays .ray-7 {
+  position: absolute;
   transform: rotate(270deg);
+  top: 0px;
+  left: 0px;
 }
 
-.ray-8 {
-  position: relative;
+.rays .ray-8 {
+  position: absolute;
   transform: rotate(315deg);
+  top: 0px;
+  left: 0px;
 }
 
 .left-side-ray {
