@@ -1,58 +1,5 @@
-h1,
-h2 {
-  font-family: Lato;
-}
-
 div {
   margin: 20px;
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-
-.rectangle {
-  width: 200px;
-  height: 100px;
-  background-color: red;
-}
-
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: red;
-}
-
-.triangle-up {
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-bottom: 100px solid red;
-}
-.triangle-down {
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 100px solid red;
-}
-.triangle-left {
-  width: 0;
-  height: 0;
-  border-top: 100px solid transparent;
-  border-right: 100px solid red;
-  border-bottom: 100px solid transparent;
-}
-.triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 100px solid transparent;
-  border-left: 100px solid red;
-  border-bottom: 100px solid transparent;
 }
 
 .flag {
