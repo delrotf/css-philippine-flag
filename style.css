@@ -10,7 +10,7 @@
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.36);
 }
 .flag {
-  --color: rgb(226, 226, 14);
+  --color: #FCD116;
   position: relative;
   width: 400px;
   height: 0;
@@ -32,7 +32,7 @@
   top: -185px;
   left: -450px;
 }
-.vizayas {
+.visayas {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -89,7 +89,7 @@
   height: 180px;
   position: absolute;
   top: 120px;
-  left: -70px;
+  left: -75px;
   border-radius: 50%;
 }
 
@@ -152,31 +152,31 @@
 }
 
 .left-side-ray {
-  width: 20px;
+  width: 15px;
   height: 140px;
   position: relative;
-  left: -20px;
+  left: -15px;
   background: var(--color);
-  clip-path: polygon(100% 11%, 100% 11%, 70% 100%, 30% 100%, 0% 18%);
-  transform: rotate(-9deg);
+  clip-path: polygon(100% 20%, 100% 20%, 70% 100%, 30% 100%, 0% 30%);
+  transform: rotate(-7deg);
 }
 
 .main-ray {
-  width: 40px;
+  width: 30px;
   height: 140px;
   position: relative;
   top: -140px;
   background-color: var(--color);
-  clip-path: polygon(50% 0%, 100% 8%, 70% 100%, 30% 100%, 0% 8%);
+  clip-path: polygon(50% 0%, 100% 14%, 70% 100%, 30% 100%, 0% 14%);
 }
 
 .right-side-ray {
-  width: 20px;
+  width: 15px;
   height: 140px;
   position: relative;
   top: -280px;
-  left: 40px;
+  left: 30px;
   background: var(--color);
-  clip-path: polygon(100% 18%, 100% 18%, 70% 100%, 30% 100%, 0% 11%);
-  transform: rotate(9deg);
+  clip-path: polygon(100% 30%, 100% 30%, 70% 100%, 30% 100%, 0% 20%);
+  transform: rotate(7deg);
 }
