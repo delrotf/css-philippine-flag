@@ -14,37 +14,37 @@
   position: relative;
   width: 400px;
   height: 0;
-  border-top: 200px solid blue;
+  border-top: 230px solid blue;
   /* For an equilateral triangle it’s worth pointing out that the height is 86.6% of the width so (border-left-width + border-right-width) * 0.866% = border-bottom-width */
-  border-left: 346.4px solid white;
-  border-bottom: 200px solid red;
+  border-left: 400px solid white;
+  border-bottom: 230px solid red;
 }
 .sun {
   position: absolute;
-  top: -63px;
-  left: -220px;
+  top: -84px;
+  left: -264px;
   transform: scale(0.3);
 }
 .luzon {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: -160px;
-  left: -400px;
+  top: -185px;
+  left: -450px;
 }
 .vizayas {
   width: 100px;
   height: 100px;
   position: absolute;
   top: -35px;
-  left: -180px;
+  left: -190px;
 }
 .mindanao {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 80px;
-  left: -400px;
+  top: 105px;
+  left: -450px;
 }
 .star-five {
   position: relative;
