@@ -1,45 +1,50 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .flag-container {
   display: inline-flex;
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.36); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.36);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.36);
 }
 .flag {
   --color: rgb(226, 226, 14);
-  color: rgb(226, 226, 14);
   position: relative;
-  width: 200px;
+  width: 400px;
   height: 0;
-  border-top: 100px solid blue;
+  border-top: 200px solid blue;
   /* For an equilateral triangle it’s worth pointing out that the height is 86.6% of the width so (border-left-width + border-right-width) * 0.866% = border-bottom-width */
-  border-left: 173.2px solid white;
-  border-bottom: 100px solid red;
+  border-left: 346.4px solid white;
+  border-bottom: 200px solid red;
 }
 .sun {
   position: absolute;
-  top: -40px;
-  left: -110px;
-  transform: scale(0.17);
+  top: -63px;
+  left: -220px;
+  transform: scale(0.3);
 }
 .luzon {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: -105px;
-  left: -255px;
+  top: -160px;
+  left: -400px;
 }
 .vizayas {
   width: 100px;
   height: 100px;
   position: absolute;
   top: -35px;
-  left: -135px;
+  left: -180px;
 }
 .mindanao {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 35px;
-  left: -255px;
+  top: 80px;
+  left: -400px;
 }
 .star-five {
   position: relative;
@@ -49,7 +54,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.36);
   border-right: 100px solid transparent;
   border-bottom: 70px solid var(--color);
   border-left: 100px solid transparent;
-  transform: rotate(35deg) scale(0.1);
+  transform: rotate(35deg) scale(0.3);
 }
 .star-five:before {
   border-bottom: 95px solid var(--color);
